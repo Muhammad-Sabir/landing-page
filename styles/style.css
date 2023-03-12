@@ -198,6 +198,20 @@ nav > ul > li a {
 .prompt > div {
 	background-color: #3882f6;
 	padding: 20px 60px;
-	border-radius: 8px;
+	border-radius: 4px;
 	color: #f9faf8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+}
+
+.prompt > div > a {
+	font-size: 12px;
+	font-weight: 700;
+	padding: 8px 16px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #f9faf8;
+	border: 1px solid #f9faf8;
 }

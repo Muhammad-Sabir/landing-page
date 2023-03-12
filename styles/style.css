@@ -1,7 +1,7 @@
 :root {
 	--dark-red: #a31621;
 	--white: #f9faf8;
-	--blue: #3882f6;
+	--purple: #571089;
 	--light-grey: #e5e7eb;
 }
 
@@ -123,7 +123,7 @@ nav > ul > li a {
 .author-intro > div > a {
 	font-size: 18px;
 	padding: 8px 14px;
-	background-color: var(--blue);
+	background-color: var(--purple);
 	border-radius: 4px;
 	text-decoration: none;
 	color: var(--white);
@@ -212,7 +212,7 @@ nav > ul > li a {
 }
 
 .prompt > div {
-	background-color: var(--blue);
+	background-color: var(--purple);
 	padding: 20px 60px;
 	border-radius: 4px;
 	color: var(--white);

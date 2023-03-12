@@ -215,3 +215,15 @@ nav > ul > li a {
 	color: #f9faf8;
 	border: 1px solid #f9faf8;
 }
+
+/*---------------------------------------------------------------------FOOTER------------------------------------------------------------------*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #1f2937;
+	padding: 24px;
+	color: #f9faf8;
+	font-weight: 700;
+}

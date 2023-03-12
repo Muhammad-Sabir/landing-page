@@ -61,6 +61,7 @@ nav {
 	padding: 16px;
 	justify-content: space-evenly;
 	width: 100%;
+	border-bottom: 1px dotted #f9faf8;
 }
 
 nav > ul {
@@ -68,7 +69,6 @@ nav > ul {
 	display: flex;
 	gap: 36px;
 	align-items: center;
-	justify-content: flex-start;
 }
 
 nav > ul > li a {
@@ -78,4 +78,23 @@ nav > ul > li a {
 	border-radius: 2px;
 	text-decoration: none;
 	color: #1f2937;
+}
+
+.author-intro {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 62px;
+	padding: 32px;
+}
+
+.author-intro > div > h1 {
+	font-size: 50px;
+}
+
+.author-intro > img {
+	height: 240px;
+	width: auto;
+	border-radius: 8px;
 }

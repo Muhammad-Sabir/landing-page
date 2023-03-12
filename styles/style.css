@@ -13,6 +13,7 @@
 body {
 	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
+	font-family: "Roboto", sans-serif;
 }
 
 img,
@@ -64,13 +65,20 @@ nav {
 	justify-content: space-evenly;
 	width: 100%;
 	border-bottom: 1px dotted #f9faf8;
+	flex-wrap: wrap;
 }
 
 nav > ul {
 	list-style: none;
 	display: flex;
+	flex-wrap: wrap;
 	gap: 36px;
 	align-items: center;
+	margin: 8px 0px;
+}
+
+nav > ul > li {
+	flex: 1 0 auto;
 }
 
 nav > ul > li a {
@@ -141,6 +149,7 @@ nav > ul > li a {
 	justify-content: center;
 	margin-bottom: 40px;
 	gap: 36px;
+	flex-wrap: wrap;
 }
 
 .fvrt-games > .all-games > .game-info {
@@ -178,6 +187,7 @@ nav > ul > li a {
 
 .quotation > p:nth-of-type(1) {
 	font-size: 24px;
+	font-weight: 100;
 }
 
 .quotation > p:nth-of-type(2) {
@@ -204,6 +214,7 @@ nav > ul > li a {
 	align-items: center;
 	justify-content: center;
 	gap: 40px;
+	flex-wrap: wrap;
 }
 
 .prompt > div > a {
@@ -216,7 +227,7 @@ nav > ul > li a {
 	border: 1px solid #f9faf8;
 }
 
-/*---------------------------------------------------------------------FOOTER------------------------------------------------------------------*/
+/*--------------------------------------------------------------------FOOTER------------------------------------------------------------------*/
 
 footer {
 	display: flex;

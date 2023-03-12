@@ -52,4 +52,12 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	padding: 16px;
+	justify-content: space-evenly;
+	width: 100%;
 }

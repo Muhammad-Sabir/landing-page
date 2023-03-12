@@ -1,7 +1,8 @@
 :root {
-	--dark-red: #a31621;
+	--dark-blue: #1f2937ea;
+	--dark-blue-transparent: #243a58bb;
 	--white: #f9faf8;
-	--purple: #571089;
+	--red: #c1121f;
 	--light-grey: #e5e7eb;
 }
 
@@ -57,7 +58,7 @@ h6 {
 /*---------------------------------------------------------------------HEADER-----------------------------------------------------------------*/
 header {
 	color: var(--white);
-	background-color: var(--dark-red);
+	background-color: var(--dark-blue);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -94,7 +95,7 @@ nav > ul > li a {
 	background-color: var(--white);
 	border-radius: 2px;
 	text-decoration: none;
-	color: var(--dark-red);
+	color: var(--dark-blue);
 }
 
 /*-----Author-Intro Section-----*/
@@ -123,7 +124,7 @@ nav > ul > li a {
 .author-intro > div > a {
 	font-size: 18px;
 	padding: 8px 14px;
-	background-color: var(--purple);
+	background-color: var(--red);
 	border-radius: 4px;
 	text-decoration: none;
 	color: var(--white);
@@ -161,7 +162,7 @@ nav > ul > li a {
 .fvrt-games > .all-games > .game-info {
 	flex: 0 1 266.66666px;
 	color: var(--white);
-	background-color: var(--dark-red);
+	background-color: var(--dark-blue-transparent);
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -212,7 +213,7 @@ nav > ul > li a {
 }
 
 .prompt > div {
-	background-color: var(--purple);
+	background-color: var(--red);
 	padding: 20px 60px;
 	border-radius: 4px;
 	color: var(--white);
@@ -239,7 +240,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--dark-red);
+	background-color: var(--dark-blue);
 	padding: 24px;
 	color: var(--white);
 	font-weight: 700;

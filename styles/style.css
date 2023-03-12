@@ -1,3 +1,10 @@
+:root {
+	--dark-red: #a31621;
+	--white: #f9faf8;
+	--blue: #3882f6;
+	--light-grey: #e5e7eb;
+}
+
 /*------------------------------------------------------------------CSS Reseting--------------------------------------------------------------*/
 *,
 *::before,
@@ -49,8 +56,8 @@ h6 {
 
 /*---------------------------------------------------------------------HEADER-----------------------------------------------------------------*/
 header {
-	color: #f9faf8;
-	background-color: #1f2937;
+	color: var(--white);
+	background-color: var(--dark-red);
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -64,7 +71,7 @@ nav {
 	padding: 16px;
 	justify-content: space-evenly;
 	width: 100%;
-	border-bottom: 1px dotted #f9faf8;
+	border-bottom: 1px dotted var(--white);
 	flex-wrap: wrap;
 }
 
@@ -84,10 +91,10 @@ nav > ul > li {
 nav > ul > li a {
 	font-size: 24px;
 	padding: 8px 16px;
-	background-color: #f9faf8;
+	background-color: var(--white);
 	border-radius: 2px;
 	text-decoration: none;
-	color: #1f2937;
+	color: var(--dark-red);
 }
 
 /*-----Author-Intro Section-----*/
@@ -116,10 +123,10 @@ nav > ul > li a {
 .author-intro > div > a {
 	font-size: 18px;
 	padding: 8px 14px;
-	background-color: #3882f6;
+	background-color: var(--blue);
 	border-radius: 4px;
 	text-decoration: none;
-	color: #f9faf8;
+	color: var(--white);
 	font-weight: 700;
 }
 
@@ -135,7 +142,6 @@ nav > ul > li a {
 .fvrt-games {
 	display: flex;
 	flex-direction: column;
-	background-color: #f9faf8;
 	align-items: center;
 }
 
@@ -154,8 +160,8 @@ nav > ul > li a {
 
 .fvrt-games > .all-games > .game-info {
 	flex: 0 1 266.66666px;
-	color: #f9faf8;
-	background-color: #1f2937;
+	color: var(--white);
+	background-color: var(--dark-red);
 	border-radius: 5px;
 	overflow: hidden;
 }
@@ -176,7 +182,7 @@ nav > ul > li a {
 /*-----Quotation Section-----*/
 
 .quotation {
-	background-color: #e5e7eb;
+	background-color: var(--light-grey);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -206,10 +212,10 @@ nav > ul > li a {
 }
 
 .prompt > div {
-	background-color: #3882f6;
+	background-color: var(--blue);
 	padding: 20px 60px;
 	border-radius: 4px;
-	color: #f9faf8;
+	color: var(--white);
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -223,8 +229,8 @@ nav > ul > li a {
 	padding: 8px 16px;
 	border-radius: 8px;
 	text-decoration: none;
-	color: #f9faf8;
-	border: 1px solid #f9faf8;
+	color: var(--white);
+	border: 1px solid var(--white);
 }
 
 /*--------------------------------------------------------------------FOOTER------------------------------------------------------------------*/
@@ -233,8 +239,8 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #1f2937;
+	background-color: var(--dark-red);
 	padding: 24px;
-	color: #f9faf8;
+	color: var(--white);
 	font-weight: 700;
 }

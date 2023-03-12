@@ -56,6 +56,8 @@ header {
 	align-items: center;
 }
 
+/*-----Nav-----*/
+
 nav {
 	display: flex;
 	padding: 16px;
@@ -80,17 +82,36 @@ nav > ul > li a {
 	color: #1f2937;
 }
 
+/*-----Author-Intro Section-----*/
 .author-intro {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	gap: 62px;
 	padding: 32px;
 }
 
+.author-intro > div {
+	flex: 0 1 600px;
+}
+
 .author-intro > div > h1 {
 	font-size: 50px;
+}
+
+.author-intro > div > p {
+	font-size: 20px;
+	margin-bottom: 16px;
+}
+
+.author-intro > div > a {
+	font-size: 18px;
+	padding: 8px 14px;
+	background-color: #f9faf8;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #1f2937;
 }
 
 .author-intro > img {
@@ -98,3 +119,49 @@ nav > ul > li a {
 	width: auto;
 	border-radius: 8px;
 }
+
+/*---------------------------------------------------------------------MAIN-------------------------------------------------------------------*/
+
+/*-----Fvrt-Games Section-----*/
+.fvrt-games {
+	display: flex;
+	flex-direction: column;
+	background-color: #f9faf8;
+	align-items: center;
+	border-bottom: 1px solid #1f2937;
+}
+
+.fvrt-games > h2 {
+	font-size: 45px;
+	padding: 40px 0px;
+}
+
+.fvrt-games > .all-games {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+	gap: 36px;
+}
+
+.fvrt-games > .all-games > .game-info {
+	flex: 0 1 266.66666px;
+	color: white;
+	background-color: #1f2937;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.fvrt-games > .all-games > .game-info > img {
+	height: 150px;
+	width: auto;
+}
+
+.fvrt-games > .all-games > .game-info > p {
+	padding: 16px;
+}
+
+.fvrt-games > .all-games > .game-info > p > strong {
+	display: block;
+}
+
+/*-----Quotation Section-----*/

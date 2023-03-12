@@ -108,10 +108,11 @@ nav > ul > li a {
 .author-intro > div > a {
 	font-size: 18px;
 	padding: 8px 14px;
-	background-color: #f9faf8;
+	background-color: #3882f6;
 	border-radius: 4px;
 	text-decoration: none;
-	color: #1f2937;
+	color: #f9faf8;
+	font-weight: 700;
 }
 
 .author-intro > img {

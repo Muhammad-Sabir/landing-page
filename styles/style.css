@@ -185,3 +185,19 @@ nav > ul > li a {
 	align-self: flex-end;
 	margin-right: 45px;
 }
+
+/*-----Prompt Section-----*/
+.prompt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 60px 350px;
+}
+
+.prompt > div {
+	background-color: #3882f6;
+	padding: 20px 60px;
+	border-radius: 8px;
+	color: #f9faf8;
+}

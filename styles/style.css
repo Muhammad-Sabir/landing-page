@@ -46,10 +46,10 @@ h6 {
 }
 
 /*---------------------------------------------------------------------HEADER-----------------------------------------------------------------*/
-nav {
-	background-color: #1f2937;
-}
-
-ul {
+header {
 	color: #f9faf8;
+	background-color: #1f2937;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
 }
